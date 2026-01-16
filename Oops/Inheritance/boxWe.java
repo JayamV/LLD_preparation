@@ -9,9 +9,16 @@ public class boxWe extends box{
     }
 
     boxWe(double l, double h,double w,int val ){
+        //super must be initialize first then child
+
+
         super(l,h,w); //calls immidiate parent class constructor
         //in super we can access private because it call parent class conctructor for that not child
-        
+
+        //super. use to access parent value directly
+        //super.h=1000;
+        //have updated value 1000 for h (parent)
+
         this.val=val;
     }
 

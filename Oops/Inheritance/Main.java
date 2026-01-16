@@ -3,8 +3,10 @@ public class Main{
         box one=new box();
         one.Disply();
 
-        // boxWe summa=new boxWe(1,2,3,5);
-        // summa.Disply();
+        boxWe summa=new boxWe(1,2,3,5);
+        summa.Disply();
         
+
+        //super -> super -> (parent)super -> object class (all other class)
     }
 }

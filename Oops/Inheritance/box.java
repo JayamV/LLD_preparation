@@ -4,6 +4,7 @@ public class box{
     double w;
 
     box(){
+        //super(); points Object CLASS
         this.l=-1;
         this.h=-1;
         this.w=-1;
